@@ -230,9 +230,16 @@ main {
     clip-path: polygon(100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0 0);
     
 }
+.cores-robo-botao {
+    width: 5em;
+    height: 5em;
+    border: none;
+    background: none; 
+    
+}
 
 .cores-robo-img {
-    width: 5%;
+    width: 100%;
     cursor: pointer;
 }
 
