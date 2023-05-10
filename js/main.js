@@ -66,7 +66,7 @@ const imagem = document.querySelector('.robo');
 
 cores.forEach((elemento) => {
     elemento.addEventListener('click', (evento) => {
-        mudaCor(evento.dataset.cor)
+        mudaCor(evento.target.dataset.cor)
         
        
     }) 
