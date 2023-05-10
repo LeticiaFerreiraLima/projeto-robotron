@@ -1,5 +1,6 @@
 const controle= document.querySelectorAll('[data-controle]');
 const estatisticas = document.querySelectorAll('[data-estatistica]');
+
 const pecas = {
     "bracos": {
         "forca": 29,
@@ -58,4 +59,19 @@ function atualizaEstatisticas(peca) {
         elemento.textContent = parseInt(elemento.textContent) + pecas[peca][elemento.dataset.estatistica]
     })
 }
-// o conteúdo do elemento clicado recebe seu valor mais a estatistica da peca 
+// o conteúdo do elemento clicado recebe seu valor mais a estatistica da peca
+
+const cores = document.querySelectorAll("[data-cor]");
+const imagem = document.querySelector('.robo');
+
+cores.forEach((elemento) => {
+    elemento.addEventListener('click', (evento) => {
+        mudaCor(evento.dataset.cor)
+        
+       
+    }) 
+})
+
+function mudaCor (corAtual) {
+    imagem.setAttribute('src', `img/robotron-${corAtual}.png`)
+}
