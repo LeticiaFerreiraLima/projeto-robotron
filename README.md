@@ -1,9 +1,11 @@
-# Robotron-2000
+<img src="./img/robotron-azul.png" height= "80px"/>
 
-##Descrição do projeto
-O projeto foi desenvolvido ao longo do curso "Javascript: manipulando o DOM", da Alura. O curso faz parte do processo de formação Fullstack do programa Desenvolve do Grupo Boticário. 
+# Robotron 2000
 
-Ainda  faltam algumas alterações no projero, principalmente nas funções que altera as estatísticas do Robotron.
+## Descrição do projeto
+O projeto foi desenvolvido ao longo do curso "Javascript: manipulando o DOM", da Alura. O curso faz parte do processo de formação Fullstack do programa Desenvolve do Grupo Boticário. O objetivo do projeto foi criar funções em javascript para manipular o DOM, permitindo mudar os valores exibidos. Para incrementar o projeto, usei o DOM para modificar a cor do robotron ao clicar no botão desejado. 
+
+> Ainda  faltam algumas alterações no projeto, principalmente nas funções que alteram as estatísticas do Robotron.
 
 
-> link do Github pages: https://leticiaferreiralima.github.io/projeto-robotron/
+> Link do Github Pages: https://leticiaferreiralima.github.io/projeto-robotron/
